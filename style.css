@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Nunito:ital,wght@1,700&display=swap');
+html{
+	--fuente: 'Nunito', Arial;
+	font-family: var(--fuente);
+	background-color: rgba(230, 255, 255);
+}
+.titulo{
+	//color:  rgb(9, 96, 168);
+}
+#titulo{
+	font-family: 'Noto Sans JP', sans-serif;
+}
+.elementos{
+	--color-fondo: rgba(150, 255, 255, 0.5);
+	background-color: var(--color-fondo);
+	padding: 5px 20px 5px 20px;
+	margin: 10px 10px 10px 10px;
+	border-color: var(--color-fondo);
+	border-style: solid;
+	border-radius: 2%;
+}
+p{
+	//color: rgba(245, 29, 97);
+	font-size: 2vw;
+}
+#rikkat2{
+	width: 700px;
+	border-width: 4px;
+	border-color: rgba(150, 255, 255);
+	border-style: solid;
+	border-radius: 10%;
+}
+#rikkat1{
+	width: 300px;
+	border-width: 4px;
+	border-color: rgba(150, 255, 255);
+	border-style: solid;
+	border-radius: 10%;
+	background-color: white;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+#nav{
+	color: black !important;
+}
+#nav:hover{
+	color: blue;
+}
+a:active{
+	color: cyan;
+}
